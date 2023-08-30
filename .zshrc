@@ -9,9 +9,9 @@ alias cll='clear && ll'
 # -------------------------------------------------------------------
 # git alias settings
 # -------------------------------------------------------------------
-alias gst='git status'
-alias glo='git log --oneline'
-alias gaa='git add .'
+alias gst='cll && git status'
+alias glo='cll && git log --oneline'
+alias gaa='git add . && gst'
 
 
 # -------------------------------------------------------------------
